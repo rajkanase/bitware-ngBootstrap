@@ -9,6 +9,10 @@ import { ModalComponent } from "./modal/modal.component";
 import { PaginationComponent } from "./pagination/pagination.component";
 import { PopoverComponent } from "./popover/popover.component";
 import { ProgressbarComponent } from "./progressbar/progressbar.component";
+import { RatingComponent } from "./rating/rating.component";
+import { TabsComponent } from "./tabs/tabs.component";
+import { TimepickerComponent } from "./timepicker/timepicker.component";
+import { TypeaheadComponent } from "./typeahead/typeahead.component";
 
 const routes:Routes = [
     { path:'accordian', component:AccordianComponent},
@@ -20,8 +24,11 @@ const routes:Routes = [
     { path:'modal', component:ModalComponent},
     { path: 'pagination', component:PaginationComponent},
     { path:'popover', component:PopoverComponent},
-    { path:'progressbar', component:ProgressbarComponent}
-
+    { path:'progressbar', component:ProgressbarComponent},
+    { path: 'rating', component:RatingComponent},
+    { path: 'tabs', component:TabsComponent},
+    { path: 'timepicker', component:TimepickerComponent},
+    { path: 'typeahead', component:TypeaheadComponent}
 ];
 
 export const MyRoutingModule = RouterModule.forRoot(routes);

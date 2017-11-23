@@ -16,6 +16,10 @@ import { ModalComponent } from './modal/modal.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { PopoverComponent } from './popover/popover.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { RatingComponent } from './rating/rating.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { TimepickerComponent } from './timepicker/timepicker.component';
+import { TypeaheadComponent } from './typeahead/typeahead.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
     ModalComponent,
     PaginationComponent,
     PopoverComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    RatingComponent,
+    TabsComponent,
+    TimepickerComponent,
+    TypeaheadComponent
   ],
   imports: [
     BrowserModule,
