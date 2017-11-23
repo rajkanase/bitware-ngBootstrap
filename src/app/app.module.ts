@@ -9,6 +9,13 @@ import { DatePickerComponent } from './date-picker/date-picker.component';
 import { MyRoutingModule } from './router';
 import { AccordianComponent } from './accordian/accordian.component';
 import { AlertComponent } from './alert/alert.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { CollapseComponent } from './collapse/collapse.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { ModalComponent } from './modal/modal.component';
+import { PaginationComponent } from './pagination/pagination.component';
+import { PopoverComponent } from './popover/popover.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { AlertComponent } from './alert/alert.component';
     SideMenuComponent,
     DatePickerComponent,
     AccordianComponent,
-    AlertComponent
+    AlertComponent,
+    CarouselComponent,
+    CollapseComponent,
+    DropdownComponent,
+    ModalComponent,
+    PaginationComponent,
+    PopoverComponent,
+    ProgressbarComponent
   ],
   imports: [
     BrowserModule,
