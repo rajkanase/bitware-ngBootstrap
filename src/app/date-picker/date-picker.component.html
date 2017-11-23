@@ -1,0 +1,19 @@
+<!-- 
+  1.install ngBootstrap
+  2.import ngBootstrap in app.module.ts
+  3.copy html code and ts code.
+ -->
+
+<form class="form-inline">
+  <div class="form-group">
+    <div class="input-group">
+      <input class="form-control" placeholder="yyyy-mm-dd"
+             name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+      <button class="input-group-addon" (click)="d.toggle()" type="button">
+        <img src="assets/calender.png" style="width: 2rem; height: 2rem; cursor: pointer;"/>
+      </button>
+    </div>
+  </div>
+</form>
+<hr/>
+<pre>Model: {{ model | json }}</pre>
